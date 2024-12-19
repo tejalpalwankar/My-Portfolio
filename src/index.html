@@ -1,323 +1,50 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
+<!-- Updated HTML Portfolio Structure -->
 <!DOCTYPE html>
 <html lang="en" class="sr">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-55Q4SV4V84"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <title>Tejal Palwankar | Portfolio</title>
+    <meta name="description" content="Portfolio showcasing Tejal Palwankar's projects and skills in business analysis, data analysis, and cloud technologies." />
 
-    gtag('config', 'G-55Q4SV4V84');
-  </script>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-
-  <!-- Todo: put here your site title -->
-  <title>Tejal Palwankar | Syracuse </title>
-  <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-  <meta name="keywords" content="[tejalpalwankar], [tejal], C++, C, python" />
-  <!-- Todo: improve your SEO by adding a small description of you -->
-  <meta name="description" content="[Tejal Palwankar] | Syracuse, New York" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="styles.scss" />
-  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-
-  <!-- Todo: remove the below script once you finish your portfolio -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
-<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
-
 <body>
-  <div id="top"></div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- **** Hero Section **** -->
-  <section id="hero" class="jumbotron">
-    <div class="container">
-      <h1 class="hero-title load-hidden">
-        Hi, my name is <span class="text-color-main">Tejal Palwankar</span>
-        <br />
-        Here's my portfolio!
-      </h1>
-      <p class="hero-cta load-hidden">
-        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
-      </p>
-    </div>
-  </section>
-  <!-- /END Hero Section -->
+  <main>
+    <!-- Placeholder for Dynamic Content -->
+    <section id="dynamic-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Navigate through the menu to explore my skills, projects, and experiences.</p>
+    </section>
+  </main>
 
-  <!-- **** About Section **** -->
-  <section id="about">
-    <div class="container">
-      <h2 class="section-title load-hidden">About me</h2>
-      <div class="row about-wrapper">
-        <div class="col-md-6 col-sm-12">
-          <div class="about-wrapper__image load-hidden">
-            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="400px"
-              src="assets/NYprofile.jpg" alt="Profile Image" />
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="about-wrapper__info load-hidden">
-            <p class="about-wrapper__info-text">
-              I am Tejal Palwankar and i am from syracuse, a passionate and dedicated graduate student currently pursuing a Master of Science in Information Studies at Syracuse
-              University in New York, USA. My journey in the world of technology and information has been marked by a relentless curiosity and a commitment to
-              making a positive impact through innovation.
-              
-              My academic background includes a Bachelor of Engineering in Computer Science and Engineering from Rajiv Gandhi Institute of Technology, Mumbai,
-              India. Throughout my academic career, I've delved deep into subjects like Artificial Intelligence, Soft Computing, Natural Language Processing, and
-              Distributed Computing, laying a strong foundation for my current pursuits.
-              
-              Professionally, I've had the privilege of working as a Technical Business Analyst at KIYA.AI, where I led business analysis efforts for Anti Money
-              Laundering Solutions, resolving complex issues and driving substantial product improvements. I'm passionate about bridging the gap between
-              technology and business, and my work at KIYA.AI reflects this commitment.
-              
-              I am a firm believer in the power of technology to transform lives, and I'm particularly interested in the ethical and inclusive use of Artificial
-              Intelligence. My leadership roles in student organizations and community involvement have nurtured my commitment to diversity and inclusion in
-              technology.
-              
-              As I continue my academic and professional journey, I am driven by the belief that technology, when wielded responsibly, has the potential to
-              reshape the world for the better. I am excited to collaborate, innovate, and contribute to this transformative journey, and I invite you to explore
-              my portfolio to learn more about my work and experiences.
-            </p>
-            <span class="d-flex mt-3">
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/Tejal_Palwankar Resume.pdf">
-                View Resume
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /END About Section -->
-
-  <!-- **** Projects Section **** -->
-  <section id="projects">
-    <div class="container">
-      <div class="project-wrapper">
-        <h2 class="section-title dark-blue-text">Projects</h2>
-
-        <!-- Notice: each .row is a project -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Diabetic Retinopathy Detection</h3>
-              <div>
-                <p class="mb-4">
-                  Diabetic retinopathy is a retinal disease that is affected by diabetes in the eyes. The only solution
-                  for this problem is through the use of a retinal screening system that would diagnose the retinal
-                  damage at an early stage. We developed a system that will identify the features from the fundus images
-                  through CNN and eventually it will classify most-affected or least-affected eyes.
-                </p>
-              </div>
-              <a rel="noreferrer" target="" class="cta-btn text-color-main"
-                href="https://github.com/tejalpalwankar/Diabetic-Retinopathy-Detection">
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/dr.jpg" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /END Project -->
-
-        <!-- Notice: each .row is a project -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Path Finder Visualizer</h3>
-              <div>
-                <p class="mb-4">
-                  This path Finding visualizer is built using React which will demonstrate the pathfinding algorithms
-                  such as BFS , DFS, Dijkstra's Algorithm, A* Search , greedy best-first search, swarm algorithm,
-                  convergent swarm algorithm, bidrectional swarm algorithm.We can add mazes and patterns , a 3rd node.
-                  There is a functionality to change the speed of the algorithm as well as the add walls to check which
-                  works faster with obstacles. Overall it simulates us the best algorithm.
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
-                href="https://github.com/tejalpalwankar/PathFinder_Visualizer">
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/path-finder.jpg" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /END Project -->
-
-        <!-- Notice: each .row is a project -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Movie Recommender system</h3>
-              <div>
-                <p class="mb-4">
-                  Content based Recommender system recommends movies similar to the
-                  movies similar to the movie user likes and analyses the user for that
-                  movie.Built this Recommender system using machine learning. Used python, flask framework, Kaggle
-                  Dataset.
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
-                href="https://github.com/tejalpalwankar/Movie-Recommendation-system">
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/movie.jpg" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /END Project -->
-
-        <!-- Notice: each .row is a project -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Air Canvas</h3>
-              <div>
-                <p class="mb-4">
-                  Air Canvas can draw anything on it by just capturing the motion of a coloured marker with camera. Here
-                  a coloured object at tip of finger is used as the marker.I have used the computer vision techniques of
-                  OpenCV to build this project. The preffered language is python due to its exhaustive libraries and
-                  easy to use syntax.
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
-                href="https://github.com/tejalpalwankar/air-canvas"> 
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/air-canvas.jpg" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /END Project -->
-
-        <!-- Notice: each .row is a project -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Data structures</h3>
-              <div>
-                <p class="mb-4">
-                  A curated list and explaination of every data structure and algorithm to understand and/or practice
-                  algorithms.
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/tejalpalwankar/Datastructures">
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/datastructures.jpg" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /END Project -->
-      </div>
-    </div>
-  </section>
-  <!-- /END Projects Section -->
-
-  <!-- **** Contact Section **** -->
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-wrapper load-hidden">
-        <p class="contact-wrapper__text">You can mail me here</p>
-        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
-          href="mailto:tejal30palwankar@email.com">Email</a>
-      </div>
-    </div>
-  </section>
-  <!-- /END Contact Section -->
-
-  <!-- **** Footer Section **** -->
-  <footer class="footer navbar-static-bottom">
-    <div class="container">
-      <a rel="noreferrer" href="#top" class="back-to-top">
-        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-      </a>
-      <div class="social-links">
-        <a rel="noreferrer" href="#!" target="https://twitter.com/TPalwankar">
-          <i class="fa fa-twitter fa-inverse"></i>
-        </a>
-        <a rel="noreferrer" href="#!" target="https://www.linkedin.com/in/tejal-palwankar-08052618b/">
-          <i class="fa fa-linkedin fa-inverse"></i>
-        </a>
-        <a rel="noreferrer" href="#!" target="https://github.com/tejalpalwankar">
-          <i class="fa fa-github fa-inverse"></i>
-        </a>
-      </div>
-
-      <hr />
-
-      <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-      <p class="footer__text">
-        © 2021 - Template developed by
-        <a rel="noreferrer" href="https://github.com/tejalpalwankar" target="_blank">Tejal Palwankar</a>
-      </p>
-
+  <footer>
+    <p>&copy; 2024 Tejal Palwankar | All Rights Reserved</p>
+    <div class="social-links">
+      <a href="https://github.com/tejalpalwankar" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/tejal-palwankar-08052618b/" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="mailto:tejal30palwankar@email.com"><i class="fa fa-envelope"></i></a>
     </div>
   </footer>
-  <!-- /END Footer Section -->
 
   <script defer type="module" src="index.js"></script>
 </body>
