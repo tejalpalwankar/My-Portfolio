@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <title>Contact | Tejal Palwankar</title>
+    <meta name="description" content="Get in touch with Tejal Palwankar for collaborations, opportunities, or inquiries." />
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-section">
+            <div class="container">
+                <h1>Contact Me</h1>
+                <p>If you'd like to discuss a project, ask a question, or simply connect, feel free to reach out!</p>
+
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <i class="fa fa-envelope"></i>
+                        <p>Email: <a href="mailto:tejal30palwankar@email.com">tejal30palwankar@email.com</a></p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa fa-linkedin"></i>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/tejal-palwankar-08052618b/" target="_blank">linkedin.com/in/tejal-palwankar</a></p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa fa-github"></i>
+                        <p>GitHub: <a href="https://github.com/tejalpalwankar" target="_blank">github.com/tejalpalwankar</a></p>
+                    </div>
+                </div>
+
+                <form action="https://formspree.io/f/myformid" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tejal Palwankar | All Rights Reserved</p>
+        <div class="social-links">
+            <a href="https://github.com/tejalpalwankar" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tejal-palwankar-08052618b/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="mailto:tejal30palwankar@email.com"><i class="fa fa-envelope"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
