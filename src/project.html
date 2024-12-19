@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <title>Projects | Tejal Palwankar</title>
+    <meta name="description" content="Explore Tejal Palwankar's projects in data analytics, cloud computing, business analysis, and more." />
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects-section">
+            <div class="container">
+                <h1>My Projects</h1>
+                <p>Here are some of the projects I have worked on, showcasing my expertise in various domains.</p>
+
+                <!-- Filters -->
+                <div class="filters">
+                    <button data-filter="all">All</button>
+                    <button data-filter="data-analytics">Data Analytics</button>
+                    <button data-filter="cloud-computing">Cloud Computing</button>
+                    <button data-filter="business-analysis">Business Analysis</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <!-- Example Project -->
+                    <div class="project-card" data-category="data-analytics">
+                        <h3>Customer Behavior Insights Platform</h3>
+                        <p>Engineered an analytics platform leveraging SQL, Python, and Power BI to analyze customer data.</p>
+                        <a href="https://github.com/tejalpalwankar/customer-behavior-insights" target="_blank">View Source</a>
+                    </div>
+
+                    <div class="project-card" data-category="cloud-computing">
+                        <h3>Cloud Optimization for Data Pipelines</h3>
+                        <p>Optimized data pipelines using AWS and Docker to enhance processing efficiency.</p>
+                        <a href="https://github.com/tejalpalwankar/cloud-optimization" target="_blank">View Source</a>
+                    </div>
+
+                    <div class="project-card" data-category="business-analysis">
+                        <h3>Centralized Tender Dashboard</h3>
+                        <p>Developed a dashboard to streamline tender processes, reducing manual effort by 80%.</p>
+                        <a href="https://github.com/tejalpalwankar/tender-dashboard" target="_blank">View Source</a>
+                    </div>
+
+                    <!-- Add more project cards here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tejal Palwankar | All Rights Reserved</p>
+        <div class="social-links">
+            <a href="https://github.com/tejalpalwankar" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tejal-palwankar-08052618b/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="mailto:tejal30palwankar@email.com"><i class="fa fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Filtering -->
+    <script>
+        const filterButtons = document.querySelectorAll('[data-filter]');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const filter = button.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
